@@ -1,0 +1,209 @@
+.bgimg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("banner.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 820px;
+  color: white;
+
+}
+.login-btn {
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  float: right;
+  margin-top: 30px;
+  margin-right: 70px;
+}
+.bgimg h2 {
+  padding-top: 30px;
+  float: left;
+  font-family: 'Recursive', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 70px;
+}
+.bgimg h1 {
+  padding-top: 360px;
+  font-family: 'Lobster', cursive;
+  font-size: 4.5rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px black
+}
+.bgimg p {
+  font-size: 1.6rem;
+
+}
+.input-group {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  margin: auto;
+  padding: 2px;
+}
+.form-control {
+  border: 0 !important;
+  border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(#00ff7e,#1f3d90);
+  border: 0 !important;
+  color: #fff !important;
+  padding: 0 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+}
+.features {
+  padding: 100px 0;
+}
+.features h1 {
+  padding-bottom: 30px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.feature-img img {
+  width: 100%;
+}
+.price {
+  width: 50px;
+  height: 50px;
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  left: 20px;
+  bottom: -25px;
+}
+.feature-img {
+  position: relative;
+}
+.ratings {
+  padding: 3px;
+  background: #fff;
+  float: right;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+}
+.features .fa {
+  font-size: 15px;
+  color: #ff5722;
+}
+.feature-details{
+  padding: 20px;
+}
+.feature-details h4{
+  font-weight: 600;
+  margin-top: 20px;
+}
+.feature-details p{
+  font-weight: 490;
+}
+.feature-details .fa {
+  margin-right: 7px !important;
+}
+.feature-box {
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  margin-bottom: 30px;
+}
+.gallery {
+  padding: 100px 0;
+  background: #efefef;
+}
+.gallery h1{
+  font-family: 'Recursive', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 65px;
+}
+.gallery-box img{
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.gallery-box img:hover {
+  transform: scale(1.1);
+}
+.gallery-box h3{
+  width: 200px;
+  font-weight: 600;
+  top: 8%;
+  left: 72%;
+  color: #fff;
+  text-shadow: -1px 1px 1px black;
+  position: absolute;
+}
+.gallery-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+.banner{
+  height: 80%;
+  height: 100vh;
+  background-image: url("img24.jpg");
+ padding-top: 15%;
+}
+.banner-highlights {
+  padding: 70px 0;
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  color: #fff;
+}
+.booking-btn {
+  width: 130px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  float: right;
+  margin-top: 30px;
+  margin-right: 70px;
+}
+.footer {
+  padding: 80px 0;
+  background: #424040
+
+}
+.footer h2,h4 {
+  font-family: 'Recursive', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-align: justify;
+}
+.footer p{
+  color: #fff;
+}
+.footer h4{
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.footer p{
+  font-size: 18px;
+  text-align: justify;
+}
+.footer .row .fa {
+  padding-right: 15px;
+  font-size: 20px;
+}
